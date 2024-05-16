@@ -2,7 +2,7 @@
 
 ## Issue: mdx files no longer properly combine script tags present in nested astro Components (build mode only)
 
-This repo contains a minimal reproduction project for issue #.
+This repo contains a minimal reproduction project for issue [#1883](https://github.com/withastro/starlight/issues/1883)
 
 ## Issue description
 

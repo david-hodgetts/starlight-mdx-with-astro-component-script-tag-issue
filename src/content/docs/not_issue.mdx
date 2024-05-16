@@ -1,0 +1,11 @@
+---
+title: variant with a wrapper that does not produce the issue
+---
+
+import Example_B from '../../examples/Example_B.astro';
+
+<p>The `Wrapper_B` component present in component `Example_B` seems to honor script tags present in its slots when inserted in a `mdx` file.</p>
+
+<Example_B/>
+
+<p>The difference between the two wrappers is that `Wrapper_B` does not contain itself a script tag</p>

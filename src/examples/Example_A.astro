@@ -1,0 +1,20 @@
+---
+import Wrapper_A from "../components/Wrapper_A.astro";
+---
+
+<Wrapper_A>
+  <script>
+    console.log("running in example");
+    document.getElementById('my-square')!.style.backgroundColor = "blue";
+  </script>
+  <p>The square below is expected to be blue at runtime.</p>
+  <div id="my-square" class="square"></div>
+</Wrapper_A>
+
+<style>
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+</style>
